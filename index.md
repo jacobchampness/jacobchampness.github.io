@@ -1,3 +1,6 @@
+---
+layout: none
+---
 # Jacob Champness
 **Tech Lead, Senior Software Engineer, Software Systems Architect, XP Coach**
 
