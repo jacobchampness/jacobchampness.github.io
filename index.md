@@ -165,11 +165,11 @@ Alaska Department of Transportation and Department of Fish and Game on
 implementation of test-driven development methodology for the
 Timesheet Entry and Review System.
 
- _AKFINWeb, Alaska Fisheries Information Network_
- Tech lead for the team developing a document repository and database
+_AKFINWeb, Alaska Fisheries Information Network_
+Tech lead for the team developing a document repository and database
 web front-end for the client's existing Oracle database of fisheries
 data. J2EE, J2SE web application running on Tomcat 5 using Struts,
-Velocity, Hibernate, and DBCP= .
+Velocity, Hibernate, and DBCP.
 
 _Lease Data Manager, ConocoPhillips Alaska_
 Technical lead for a an oil-field lease data management application
