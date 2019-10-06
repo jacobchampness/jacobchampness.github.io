@@ -1,4 +1,5 @@
 ---
+layout: post
 title: the coverage is a lie (or is it?)
 ---
 
