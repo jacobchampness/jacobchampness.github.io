@@ -1,6 +1,8 @@
 ---
 title: inject you a dependency for great good
 layout: post
+date: 2019-08-23
+author: Jacob
 ---
 
 It's usually pretty to easy write tests for pure logic functions, but it's often the case that the code we're trying to test wants to make calls to external collaborators -- databases, API endpoints, filesystems, clocks, random number generators, or global state. Testing with real collaborators can be slow, brittle, and just generally a pain, and often gives rise to indeterminate behavior or has side effects on other tests.  
