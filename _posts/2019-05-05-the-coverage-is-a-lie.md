@@ -1,3 +1,7 @@
+---
+title: the coverage is a lie (or is it?)
+---
+
 Unit test coverage is an interesting topic.  
 
 At times in the past, individuals and organizations have fetishized high coverage numbers.  This is misguided, as high coverage can be attained without a single meaningful assertion in the test suite.
