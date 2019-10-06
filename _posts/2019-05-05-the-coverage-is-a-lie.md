@@ -1,6 +1,8 @@
 ---
 layout: post
 title: the coverage is a lie (or is it?)
+date: 2019-05-05
+author: Jacob
 ---
 
 Unit test coverage is an interesting topic.  
