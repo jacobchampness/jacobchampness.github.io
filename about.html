@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Jacob Champness | www.champness.org</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Jacob Champness" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://www.champness.org/" />
+<meta property="og:url" content="https://www.champness.org/" />
+<meta property="og:site_name" content="jacobchampness.github.io" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"https://www.champness.org/","headline":"Jacob Champness","name":"jacobchampness.github.io","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=7425ba433dad1f9fd730dc1e920ed3c48c395f45">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1 id="jacob-champness">Jacob Champness</h1>
+<p><strong>Tech Lead, Senior Software Engineer, Software Systems Architect, XP Coach</strong></p>
+
+<p><em>hello@champness.org |  +1 720 432 7825</em></p>
+
+<p>I’ve built:</p>
+<ul>
+  <li>Go APIs, microservices, and infrastructure management</li>
+  <li>Scala systems management infrastructure, web services, and utilities</li>
+  <li>JavaScript/HTML5 single-page apps</li>
+  <li>Rails apps and APIs</li>
+  <li>Cellular network protocol implementations</li>
+  <li>Django webapps and server utilities</li>
+  <li>JEE and J2EE webapps</li>
+  <li>.NET web and desktop apps</li>
+</ul>
+
+<p>I’ve used:</p>
+<ul>
+  <li>Go, Ruby, Python, Scala, Java, JavaScript, Lua and C#.NET</li>
+  <li>DynamoDB, AWS Athena, MongoDB, redis, Memcached, PostgreSQL, MySQL,
+and Oracle</li>
+  <li>Django, Rails, Backbone, Akka, and Spray</li>
+  <li>docker, Kubernetes, QEMU, and Vagrant</li>
+  <li>Git, mercurial, SVN, CVS and Perforce</li>
+  <li>Linux, macOS, OSX, Solaris, HP-UX, and Windows</li>
+</ul>
+
+<p>I practice agile methods; emergent design and evolutionary
+architecture; test-first TDD; loose coupling; inversion of control and
+dependency injection; and code kata.</p>
+
+<h4 id="experience">Experience</h4>
+
+<h5 id="technical-leader--cisco-systems-san-jose-california-2016-present">Technical Leader – Cisco Systems, San Jose, California (2016-present)</h5>
+
+<p><em>Tech: Go, Python, REST; AWS S3, Cloudwatch, DynamoDB, Route53,
+Athena, Quicksight, IAM, SQS; DNS, SSH; Kubernetes, Docker, QEMU,
+Vagrant; Terraform, Ansible, IPMI; Drone, TravisCI, Jenkins;
+PagerDuty; OSX, Alpine linux, Windows</em></p>
+
+<p>Technical lead for design and implementation of the Billing
+platform, a microservices architecture running the billing and usage
+reporting functions for a private-cloud platform of
+highly-available globally-distributed cloud-computing primitives.  The
+central billing service is a REST API implemented in Go running on
+Kubernetes clusters of Docker containers in geographically distributed
+datacenters with HA latency-based DNS routing for widely dispersed
+operators and consumers of platform services.  The service is responsible
+for authorizing charges against platform accounts by issuing signed JWT
+tokens to authenticated users.  Platform service providers report billable
+customer usage to billing service endpoints, which is then aggregated
+into account statements using infrastructure running as Lambda
+functions in AWS and generating artifacts to S3 with 
+reporting infrastructure implemented in Athena and QuickSight and
+monitoring in Cloudwatch and PagerDuty.  I executed the
+initial implementation working solo, and then built and led a
+geographically-distributed team across Europe and North 
+America which continues to iterate on the platform and operate it in
+production.</p>
+
+<p>When I joined the OpenDNS/Umbrella at Cisco, I first worked on
+the devops team responsible for the bare metal fleet spanning 70 DCs 
+globally.  It was an ops-heavy team in need of balance on
+the dev side, and I was able to pick up a lot of ops expertise from my
+colleagues while also sharing with them about design and development
+best practices, and test-first TDD.  I built an API for lifecycle
+management of QEMU VMs on thousands of blades.  I led the initiative within the
+team to build a system in Go to manage the lifecycle of those
+bare-metal hosts from initial datacenter uplift to life-cycle
+management from paving to patching to decommissioning, from PXE boot
+to OS installation to integration with the fleet.</p>
+
+<h5 id="vp-of-engineering--trip30com-boulder-colorado-2013-2016">VP of Engineering – Trip30.com, Boulder, Colorado (2013-2016)</h5>
+
+<p><em>Tech: Go, Ruby, Javascript, Coffeescript, CSS, Sass, Websockets;
+Redis, MongoDB, PostgreSQL; Rails, Backbone; Git; IntelliJ, RubyMine,
+Goland; Heroku; AWS EC2, Route 53, S3, Lambda; eXtreme Programming</em></p>
+
+<p>Designed, staffed, and implemented Trip30, giving travel industry
+suppliers insight into the needs of individual travelers while
+providing travelers a comprehensive view of the geographical and
+temporal aspects of their planned and completed travel. Trip30 is
+implemented as a JavaScript, HTML, and HTML5 single-page app written
+with CoffeeScript and Backbone as a client of a Rails API running in
+Heroku with datastores in PostgreSQL and edis and live  reporting and
+analytics functions implemented using Websockets as a client of
+microservices built in Go, implementing a REST API with datastores in
+PostgreSQL, Redis and MongoDB.</p>
+
+<h5 id="senior-software-engineer--minutekey-boulder-colorado-2011-2013">Senior Software Engineer – minuteKEY, Boulder, Colorado (2011-2013)</h5>
+
+<p><em>Tech: Scala, Akka, Spray; PostgreSQL, MongoDB; AWS EC2; Ubuntu,
+CentOS, Windows, Cygwin; Scrum</em></p>
+
+<p>As a senior devops software engineer, I built and administered
+PCI-compliant infrastructure running on EC2 for payment processing and
+remote management of minuteKEY’s network of self-service kiosks
+deployed in thousands of big box stores across North America. The
+management platform is implemented in Scala with Akka and Spray and
+datastores in PostgreSQL and MongoDB and is used for remote management
+over SSH and VNC of remote kiosks running Cygwin virtual hosts on
+Windows PCs which control the UI and the internal camera, and operate
+the key-handling robot.</p>
+
+<h5 id="director-of-software-development--alpine-access-u-denver-colorado-2009-2011">Director of Software Development – Alpine Access U, Denver, Colorado (2009-2011)</h5>
+
+<p><em>Tech: CentOS, OSX; Python, JavaScript; MySQL; memcached; Django; AWS
+EC2, S3; Scrum</em></p>
+
+<p>Alpine Access is a home-shoring virtual call center, which recruits
+tens of thousands of agents per year through Alpine Access U. I
+recruited, hired, and led the engineering team in developing the
+Alpine Recruiting Platform, a Django web application running in
+multiple EC2 zones with state-sharing across zones via memcached,
+supporting complex business processes for recruiting new agents, from
+initial contact through completed onboarding; and Elmer, a Django
+learning management system running on multiple EC2 zones. This system
+delivers training to new agents, tracks their progress through
+training, and maintains training records data for tens of thousands of
+agents.</p>
+
+<h5 id="senior-software-engineer--openwave-systems-redwood-city-california-2006-2009">Senior Software Engineer – Openwave Systems, Redwood City, California (2006-2009)</h5>
+
+<p><em>Tech: Ubuntu, Windows, Solaris; Java; Eclipse, IntelliJ; TeamCity,
+CruiseControl; git, cvs, Perforce; Scrum</em></p>
+
+<p>Designed and implemented core functionality of the SUPL Positioning
+Center (SPC), the network element providing assistance data for AGPS
+(Assisted GPS) requests in Secure UserPlane Location (SUPL), the Open
+Mobility Alliance’s standard for location-based services in GSM/UMTS
+cellular networks. Implemented RRLP (Radio Resource Location Protocol)
+messaging flows between the SPC and the SET (SUPL-enabled Terminal) in
+Java on Solaris. Designed and implemented connection-management with
+the SET. Designed and implemented core functionality within SUPL.
+Designed and implemented core functionality for the V2 interface to
+Openwave’s Location Manager, implementing Qualcomm’s specification for
+LBS in CDMA cellular networks. Implemented SMPP (Short Message
+Peer-to-Peer protocol) messaging flows. Designed and implemented SMSC
+(SMS Center) connection-management.</p>
+
+<h5 id="senior-programmeranalyst--resource-data-incorporated-anchorage-alaska-2004-2006">Senior Programmer/Analyst – Resource Data Incorporated, Anchorage, Alaska (2004-2006)</h5>
+
+<p><em>Tech: Red Hat, Windows Server; C#.NET, VB.NET, Java; Oracle, SQL
+Server; Tomcat, Velocity, Struts, ASP.NET; Eclipse, Visual Studio.NET;
+CruiseControl.NET; eXtreme Programming (XP)</em></p>
+
+<p><em>New Employee Orientation (NEO), Municipality of Anchorage</em>
+Architect and lead developer for NEO, a self-service web front-end to
+PeopleSoft for new municipal employees, written in ASP.NET. NEO also
+served as a demonstration project for municipal developers, being the
+Municipality’s first .NET project. A major objective was to establish
+solid patterns and best practices for the development of future
+Municipal projects. My architecture established a framework for
+object-oriented .NET web applications supporting MVC/Model 2
+decoupling of data, presentation, and business logic.</p>
+
+<p><em>Timesheet Entry and Review System, State of Alaska, Department of
+Fish &amp; Game</em>
+Consulted with a cross-departmental client technical team from the
+Alaska Department of Transportation and Department of Fish and Game on
+implementation of test-driven development methodology for the
+Timesheet Entry and Review System.</p>
+
+<p><em>AKFINWeb, Alaska Fisheries Information Network</em>
+Tech lead for the team developing a document repository and database
+web front-end for the client’s existing Oracle database of fisheries
+data. J2EE, J2SE web application running on Tomcat 5 using Struts,
+Velocity, Hibernate, and DBCP.</p>
+
+<p><em>Lease Data Manager, ConocoPhillips Alaska</em>
+Technical lead for a an oil-field lease data management application
+consisting of business-logic, DB interaction and a Windows desktop
+front-end written in VB.NET and running against an Oracle and Oracle
+Spatial/SDE back end</p>
+
+<p><em>Pebble Mine Website, Northern Dynasty</em>
+Architect and lead developer for a mission-critical project intranet
+for gathering and maintaining environmental data and coordinating
+activities of project team members for the largest gold mine in North
+America. ASP.NET web application with Oracle back-end, written in
+C#.NET, and Oracle PL/SQL.</p>
+
+<h5 id="senior-web-application-developer-technical-lead-xp-coach--unextcom-deerfield-illinois">Senior Web Application Developer, Technical Lead, XP Coach – Unext.com, Deerfield, Illinois</h5>
+
+<p><em>Tech: Red Hat/Fedora and Windows 2000; Java, JavaScript, VB,
+VBScript; Jetspeed, Velocity, Tomcat, JSP, ASP; MySQL, Oracle,
+PostgreSQL; JBuilder, NetBeans, Eclipse, Visual Studio; XSLT, XML,
+Xerces, Xalan; ActiveX, ADSI, COM; XMetaL, Documentum, Broadvision;
+Ant, CVS, LDAP, and CruiseControl</em></p>
+
+<p>UNext.com (now known as Cardean Learning Group) is an e-learning
+company providing web-based graduate and undergraduate degrees and
+executive education programs</p>
+
+<p><em>XP Coach, Software Architect</em>
+Architected and implemented portions of ECAS, a student information
+system, implemented as a J2EE web application on Tomcat with Jetspeed
+portlets rendered with JSP and Velocity with Hibernate ORM and data
+stores in Oracle and PostgreSQL.</p>
+
+<p><em>Senior Web Application Developer, Technical Lead</em>
+Contributed to Edge, a new content-authoring system and asset-catalog
+integration including an asynchronous discussions subsystem and
+content loading and exporting using JSP and Servlets, with data stores
+Oracle 8i. Implemented build and CI systems for both using
+CruiseControl, Ant, JUnit, Clover, and jcoverage.</p>
+
+<p><em>Web Application Developer</em>
+Developed DTD and XSLT components; designed and implemented
+event-driven UI; and contributed on COM integration for Unext’s first
+content repository in Documentum. Worked on a small rapid application
+development team prototyping fully functional ASP database-driven
+courses with overnight turnaround.</p>
+
+<h4 id="education">Education</h4>
+
+<h5 id="florida-state-university-tallahassee-florida">Florida State University, Tallahassee, Florida</h5>
+<p>Bachelor of Science in Economics, minor in Mathematics</p>
+
+<h5 id="centre-college-danville-kentucky">Centre College, Danville, Kentucky</h5>
+<p>Economics and physics major, computer science and mathematics minor</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
