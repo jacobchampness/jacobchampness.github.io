@@ -1,7 +1,7 @@
 ---
 title: inject you a dependency for great good
 layout: post
-date: 2019-08-23
+date: 2019-07-19
 author: Jacob
 ---
 
